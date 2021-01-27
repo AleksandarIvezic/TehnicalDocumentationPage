@@ -111,8 +111,8 @@ footer {
 }
 @media (max-width:876px) {
     body {       
-        grid-template-columns:  100%;
-        grid-template-rows: 100% ;
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr ;
         gap: 10px;
         grid-template-areas: 
         "navbar "
@@ -121,7 +121,7 @@ footer {
         justify-items: center;
     }
     #navbar {
-        justify-content: space-between;        
+                
         padding: 20px;
        grid-area: navbar;
        
@@ -129,7 +129,7 @@ footer {
     #navbar ul {
        
         display: flex;
-        justify-content: space-between;
+        
     }
     #navbar li {
         margin:10px ;
@@ -164,7 +164,7 @@ footer {
        
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        
     }
     textarea {
         min-width:350px;

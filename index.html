@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tehnical Documentation Page</title>
+</head>
+<body>
+    
+    <nav id="navbar">
+        
+        <header>
+            <h1>HTML Tutorial</h1>
+        </header>
+        <ul>                        
+            <li><a class="nav-link" href="#HTML_Introduction">HTML Introduction</a></li>
+            <li><a class="nav-link" href="#HTML_Editors">HTML Editors</a></li>
+            <li><a class="nav-link" href="#HTML_Basic">HTML Basic</a></li>
+            <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+            <li><a class="nav-link" href="#HTML_Atributes">HTML Atributes</a></li>
+        </ul>
+    </nav>
+    <main class="container" id="main-doc">
+
+        
+        <section class="main-section" id="HTML_Introduction">
+            <header>
+                <h2>HTML Introduction</h2>
+            </header>
+            <div class="img">
+                <img src="img/html.jpeg" alt="">
+            </div>
+            <h3>What is HTML?</h3>
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML is the standard markup language for creating Web pages</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+                <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+            </ul>
+
+            <h3>A Simple HTML Document</h3>
+            <textarea >  
+                <!DOCTYPE html>
+                <html>
+                <head>
+                <title>Page Title</title>
+                </head>
+                <body>
+                
+                <h1>My First Heading</h1>
+                <p>My first paragraph.</p>
+                
+                </body>
+                </html>               
+            </textarea>  
+            <h3>Explanation</h3>
+            <ul>
+                <li>The <code>&lt;!DOCTYPE html&gt; </code> declaration defines that this document is an HTML5 document</li>
+                <li>The <code>&lt;html&gt;</code> element is the root element of an HTML page</li>
+                <li>The <code>&lt;title&gt;</code> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                <li>The <code>&lt;body&gt;</code> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                <li>The <code>&lt;h1&gt;</code> element defines a large heading</li>
+                <li>The <code>&lt;p&gt;</code> element defines a paragraph</li>
+                
+            </ul>
+            
+        </section>
+        
+        <section class="main-section" id="HTML_Editors">
+            <header>
+               <h2> HTML Editors</h2>
+            </header>
+            <p>A simple text editor is all you need to learn HTML.</p>
+            <h3>Colection fo the Best Text Editors</h3>
+            <p>Here’s a collection of our favorite text editors. Some of these are also considered IDEs, which stands for “integrated development environment.” Meaning you can do a lot more with them than simply write code. We highly recommend testing each one to see which one works best for your own workflow.</p>
+            <ol>
+                <li>Sublime Text</li>
+                <li>Atom</li>
+                <li>Notepad++</li>
+                <li>CoffeeCup-The HTML Editor</li>
+                <li>TextMate</li>
+                <li>Vim</li>
+                <li>UltraEdit</li>
+                <li>Coda</li>
+                <li>BBEdit</li>
+                <li>Komodo Edit</li>
+                <li>Visual Studio Code</li>
+                <li>Brackets</li>
+                <li>CodeShare</li>
+            </ol>
+            <p>For more informations about this editors folow the link <a href="https://kinsta.com/blog/best-text-editors/" target="_blank">See More</a> </p>
+
+        </section>
+        <section class="main-section" id="HTML_Basic">
+            <header>
+                <h2>HTML Basic </h2>
+            </header>
+            <p>Now we will show some basic HTML examples.</p>
+            <h3>HTML Documents</h3>
+            <p>All HTML documents must start with a document type declaration: <code>&lt;!DOCTYPE html&gt;</code>.</p>
+            
+            <p>The HTML document itself begins with <code> &lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code>.</p>
+            <p>The visible part of the HTML document is between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>. </p>
+            <h3>Example</h3>
+            <textarea >
+                <!DOCTYPE html>
+                <html>
+                <body>
+                
+                <h1>My First Heading</h1>
+                <p>My first paragraph.</p>
+                
+                </body>
+                </html> 
+            </textarea>
+        </section>
+        <section class="main-section" id="HTML_Elements">
+            <header>
+                <h2>HTML Elements</h2>
+            </header>
+            <p>The HTML <strong>element</strong> is everything from the start tag to the end tag:</p>
+            <code> &lt;tagname&gt;Content goes here...&lt;/tagname&gt; </code>
+            <p>Examples of some HTML elements:</p>
+            <code>
+                &lt;h1&gt;My First Heading&lt;/h1&gt; 
+            </code><br>
+            <code >
+                &lt;p&gt;My first paragraph.&lt;/p&gt; 
+            </code>
+        </section>
+        <section class="main-section" id="HTML_Atributes">
+            <header>
+                <h2>HTML Atributes</h2>
+            </header>
+            <p>HTML attributes provide additional information about HTML elements.</p><br>
+            
+            <ul>
+                <li>All HTML elements can have attributes</li>
+                <li>Attributes provide additional information about elements</li>
+                <li>Attributes are always specified in the start tag</li>
+                <li>Attributes usually come in name/value pairs like: name="value"</li>
+               
+            </ul>
+        </section>
+    </main>
+    <footer #footer>
+        <p>Made by Shinobi &copy; 2020 </p>
+    </footer>
+
+</body>
+</html>
